@@ -18,11 +18,13 @@ function checkpermission(req,res,next){
     if(req.url === '/authors'){
         response.route = "/authors";
         response.permission = true;
+        response.data = books;
         
     }
     if(req.url === '/libraries'){
         response.route = "/libraries"
         response.permission = true
+        response.data = books;
     }
     next();
 }

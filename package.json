@@ -1,10 +1,10 @@
 {
   "name": "sprint1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "nodemon server.js"
+    "serve": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,14 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "express": "^4.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxmi124/sprint1-unit6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laxmi124/sprint1-unit6/issues"
+  },
+  "homepage": "https://github.com/laxmi124/sprint1-unit6#readme",
+  "description": ""
 }
